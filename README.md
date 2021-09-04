@@ -34,7 +34,7 @@ de webpagina.
 ## Opdrachtbeschrijving
 
 1. Maak alle invoervelden na en zorg dat dit controlled components zijn;
-   Zorg ervoor dat wanneer de gebruiker op de versturen-knop klikt, een functie genaamd `handleSubmit`" wordt
+2. Zorg ervoor dat wanneer de gebruiker op de versturen-knop klikt, een functie genaamd `handleSubmit`" wordt
    aangeroepen die 'Verstuurd!' in de console logt. _Tip 1_: zet geen `onClick` eventlistener op de button, maar
    een `onSubmit` event-listener op het `<form>`-element! Deze wordt automatisch getriggerd wanneer er geklikt wordt op
    een button met `type=submit` in het formulier. _Tip 2_: Omdat de button in het formulier een `submit` button is, zal
@@ -43,7 +43,7 @@ de webpagina.
 3. Probeer nu, in plaats van 'Verstuurd!', alle ingevulde waardes in de console te loggen wanneer de `handleSubmit`
    functie wordt aangeroepen.
 4. **Bonus:** Make it look nice! 😍
-5. **Bonus:**: Snel klaar met deze opdracht en opzoek naar een extra uitdaging? Het is mogelijk (en in de parktijk ook
+5. **Bonus:** Snel klaar met deze opdracht en opzoek naar een extra uitdaging? Het is mogelijk (en in de parktijk ook
    gebruikelijk) om slechts één functie en één state variabele te gebruiken waarmee álle `onChange` listeners worden
    afgevangen. Als je hier mee wil experimenteren kun
    je [dit](https://www.pluralsight.com/guides/handling-multiple-inputs-with-single-onchange-handler-react)
