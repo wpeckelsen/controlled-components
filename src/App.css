@@ -1,1 +1,4 @@
 /*Schrijf hier jouw css voor jouw formulier*/
+
+.form-container {width: 50%; margin: 20px}
+input {margin: 5px;}
